@@ -16,7 +16,7 @@ $year = filter_input(INPUT_POST, 'year')
 <?php
 if (isset($submit)) { ?>
    Typ: <?= $auto ?><br>
-   SPZ: <?= $spz ?>
+   SPZ: <?= $spz ?><br>
    Rok: <?= $year ?> 
 <?php
 if ($year >= 2010) { ?>
